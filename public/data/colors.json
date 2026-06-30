@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Black",
+    "value": "black",
+    "class": "black"
+  },
+  {
+    "name": "Green",
+    "value": "green",
+    "class": "green-500"
+  },
+  {
+    "name": "Red",
+    "value": "red",
+    "class": "red-500"
+  },
+  {
+    "name": "Blue",
+    "value": "blue",
+    "class": "blue-500"
+  },
+  {
+    "name": "Yellow",
+    "value": "yellow",
+    "class": "yellow-400"
+  },
+  {
+    "name": "Orange",
+    "value": "orange",
+    "class": "orange-500"
+  },
+  {
+    "name": "White",
+    "value": "white",
+    "class": "white"
+  },
+  {
+    "name": "Purple",
+    "value": "purple",
+    "class": "purple-500"
+  },
+  {
+    "name": "Gray",
+    "value": "gray",
+    "class": "zinc-400"
+  },
+  {
+    "name": "Dark Blue",
+    "value": "darkblue",
+    "class": "blue-800"
+  },
+  {
+    "name": "Tan",
+    "value": "tan",
+    "class": "orange-200"
+  },
+  {
+    "name": "Teal",
+    "value": "teal",
+    "class": "teal-600"
+  },
+  {
+    "name": "Pink",
+    "value": "pink",
+    "class": "pink-400"
+  },
+  {
+    "name": "Olive",
+    "value": "olive",
+    "class": "lime-800"
+  },
+  {
+    "name": "Heather Gray",
+    "value": "heather",
+    "class": "zinc-800"
+  },
+  {
+    "name": "Off-White",
+    "value": "offwhite",
+    "class": "amber-100"
+  }
+]
