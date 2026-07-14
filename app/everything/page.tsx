@@ -31,7 +31,7 @@ export default async function Page () {
                 description={pedal.description}
                 color={pedal.color}
                 brand={pedal.brand}
-                type={pedal.type}
+                type_array={pedal.type_array}
               />
             )
           })}

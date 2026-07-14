@@ -1,39 +1,44 @@
 import Card from './card';
-import shirts from '@/public/data/shirts.json';
+import pedals from '@/public/data/pedals.json';
 import { shuffle } from '../lib/utilities';
-import { Shirt } from '../lib/definitions';
+import { Pedal } from '../lib/definitions';
 
 export default async function Deck(props: PageProps<any>) {
-  // Check if shirts is an array before mapping to avoid errors
-  if (!Array.isArray(shirts)) {
+  // Check if pedals is an array before mapping to avoid errors
+  if (!Array.isArray(pedals)) {
     return <p>No products available.</p>;
   }
   const arrayLimit = 20;
   const searchParams = await props.searchParams;
   let color = searchParams.color;
-  let cat = searchParams.cat;
-  let resultArray: Array<Shirt> = [];
+  let type = searchParams.type;
+  let brand = searchParams.brand;
+  let resultArray: Array<Pedal> = [];
   let headingText = "";
-  shirts.forEach((shirt) => {
-    if(cat) {
-      if(Array.isArray(cat)) {
-        cat = cat[0];
+  pedals.forEach((pedal) => {
+    if(type) {
+      if(Array.isArray(type)) {
+        type = type[0];
       }
-      if(shirt.tag_array.includes(cat)) {
-        resultArray.push(shirt);
+      if(pedal.type_array.includes(type)) {
+        resultArray.push(pedal);
       }
     } else if(color) {
-      if(shirt.color == color) {
-        resultArray.push(shirt);
+      if(pedal.color == color) {
+        resultArray.push(pedal);
+      }
+    } else if(brand) {
+      if(pedal.brand == brand) {
+        resultArray.push(pedal);
       }
     } else {
-      resultArray.push(shirt);
+      resultArray.push(pedal);
     }
     resultArray = shuffle(resultArray);
   })
-  headingText = "Shirts in filter: " + resultArray.length;
-  if (!cat && !color) {
-    headingText = "Shirts in inventory: " + resultArray.length + " (limit " + arrayLimit + ")";
+  headingText = "Pedals in filter: " + resultArray.length;
+  if (!type && !color && !brand) {
+    headingText = "Pedals in inventory: " + resultArray.length + " (limit " + arrayLimit + ")";
     resultArray = resultArray.slice(0, arrayLimit);
   }
 
@@ -42,18 +47,17 @@ export default async function Deck(props: PageProps<any>) {
       <div>
         <h2 className="mb-3">{headingText}</h2>
         <div className="flex gap-3 items-center flex-row flex-wrap">
-          {resultArray.map((shirt) => {
+          {resultArray.map((pedal) => {
             return (
               <Card
-                key={shirt.id}
-                id={shirt.id}
-                title={shirt.title}
-                image={shirt.image}
-                description={shirt.description}
-                color={shirt.color}
-                sleeves={shirt.sleeves}
-                tag_array={shirt.tag_array}
-                archived={shirt.archived}
+                key={pedal.id}
+                id={pedal.id}
+                name={pedal.name}
+                image={pedal.image}
+                description={pedal.description}
+                color={pedal.color}
+                brand={pedal.brand}
+                type_array={pedal.type_array}
               />
             )
           })}

@@ -1,38 +1,54 @@
-import tags from '@/public/data/tags.json';
-import shirts from '@/public/data/shirts.json';
-import Tag from './tags';
+import types from '@/public/data/types.json';
+import brands from '@/public/data/brands.json';
+import pedals from '@/public/data/pedals.json';
+import ChipLink from './chiplink';
 import { generateCountArray, doTheCounting } from '../lib/utilities';
 
-export default async function Chips(props: PageProps<any>) {
-  // Check if tags is an array before mapping to avoid errors
-  if (!Array.isArray(tags)) {
-    return <p>No tags available.</p>;
+export default async function Chips(props: PageProps<any> & {intake: string}) {
+  // Check if intake is an array before mapping to avoid errors
+  if (!Array.isArray(types) || !Array.isArray(brands)) {
+    return <p>No {props.intake} available.</p>;
   }
   const searchParams = await props.searchParams;
-  const cat = searchParams.cat;
+  const typeCat = searchParams.type;
+  const brandCat = searchParams.brand;
+  let sortField;
+  let cat;
+  let intakeField
 
-  const tagCounter = generateCountArray(tags);
-  const tagsCounted = doTheCounting(tagCounter, shirts, "tag_array");
-  const tagsSorted = tagsCounted.sort((a:any, b:any) => b.count - a.count);
+  if(props.intake == "brand") {
+    sortField = "brand";
+    cat = brandCat;
+    intakeField = brands;
+  } else {
+    sortField = "type_array";
+    cat = typeCat;
+    intakeField = types;
+  }
+  const chipCounter = generateCountArray(intakeField);
+  const chipCounted = doTheCounting(chipCounter, pedals, sortField);
+  const chipSorted = chipCounted.sort((a:any, b:any) => b.count - a.count);
 
   return (
     <div>
-      <h2 className="mb-2">Filter by category:</h2>
+      <h2 className="mb-2">Filter by {props.intake}:</h2>
       <div className="flex gap-3 flex-wrap">
-        {tagsSorted.map((chip: any) => {
+        {chipSorted.map((chip: any) => {
           if(chip.value == cat) {
             return (
-              <Tag
+              <ChipLink
                 key={chip.value}
-                tagParam={chip.value}
+                chipParam={chip.value}
+                groupParam = {props.intake}
                 selected={true}
               />
             )
           } else {
             return (
-              <Tag
+              <ChipLink
                 key={chip.value}
-                tagParam={chip.value}
+                chipParam={chip.value}
+                groupParam = {props.intake}
                 selected={false}
               />
             )

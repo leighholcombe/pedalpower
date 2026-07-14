@@ -21,9 +21,14 @@ export default function Home(pageProps:any) {
           </Suspense>
         </section>
         <section id="browse" className="my-6"></section>
-        <section id="chips" className="my-6">
+        <section id="brands" className="my-6">
           <Suspense>
-            <Chips {...pageProps}></Chips>
+            <Chips {...pageProps} intake="brand"></Chips>
+          </Suspense>
+        </section>
+        <section id="types" className="my-6">
+          <Suspense>
+            <Chips {...pageProps} intake="type"></Chips>
           </Suspense>
         </section>
         <section id="swatches" className="my-6">

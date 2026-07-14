@@ -1,0 +1,119 @@
+[
+  {
+    "id": 10001,
+    "name": "Meowdulator",
+    "image": "/images/pedal-meowdulator.jpg",
+    "description": "The Meowdulator is a very silly pedal that makes cat noises. It only carries a single octave worth of meows, so it is very limited for use with chords. All the knobs are labeled 'Meow'. There are a few different cat voices to choose from. This pedal is a special co-promotion with B's Music, so it has the B's Music logo (on the microphone).",
+    "color": "green",
+    "brand": "cusack",
+    "type_array": ["novelty", "transformer"]
+  },
+  {
+    "id": 10002,
+    "name": "Atreides",
+    "image": "/images/pedal-atreides.jpg",
+    "description": "The name comes from the 'weirding module' invented for David Lynch's Dune, and it is that strange. Kind of a fuzz, but also kind of a synthesizer, it's more of a toy than a tone shaper.",
+    "color": "black",
+    "brand": "wayhuge",
+    "type_array": ["novelty", "fuzz", "synthesizer"]
+  },
+  {
+    "id": 10003,
+    "name": "Bass Synth",
+    "image": "/images/pedal-basssynth.jpg",
+    "description": "If you need that synthesizer bass sound from your bass, this will do it. Better at handling low end frequencies than other synth pedals.",
+    "color": "gray",
+    "brand": "mxr",
+    "type_array": ["bass", "synthesizer"]
+  },
+  {
+    "id": 10004,
+    "name": "NS-2 Noise Suppressor",
+    "image": "/images/pedal-bossns2.jpg",
+    "description": "Does exactly what the name says. Most effective when noisy pedals are contained in a four-cable send and return loop. But can also go anywhere in the chain and filter other kinds of noise.",
+    "color": "white",
+    "brand": "boss",
+    "type_array": ["utility"]
+  },
+  {
+    "id": 10005,
+    "name": "Cry Baby",
+    "image": "/images/pedal-crybaby.jpg",
+    "description": "The classic, base-model wah. No frills, all analog.",
+    "color": "black",
+    "brand": "dunlop",
+    "type_array": ["wah", "volume"]
+  },
+  {
+    "id": 10006,
+    "name": "Ditto X2",
+    "image": "/images/pedal-dittolooper.jpg",
+    "description": "The Ditto is a full-featured looping pedal. You can slow down or reverse the loop, but my favorite feature is the easy stop.",
+    "color": "gray",
+    "brand": "tcelectronic",
+    "type_array": ["looper"]
+  },
+  {
+    "id": 10007,
+    "name": "Fuzz Factory",
+    "image": "/images/pedal-fuzzfactory.jpg",
+    "description": "Five controls for a fuzz pedal is a lot, and this one is capable of dialing in a ton of custom sounds. When I got it used, some of the original black knobs were damaged, so I replaced all of them with multi-colored knobs. It seemed to fit the pedal.",
+    "color": "gray",
+    "brand": "zvex",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10008,
+    "name": "Garbage Face",
+    "image": "/images/pedal-garbageface.jpg",
+    "description": "This fuzz is a collaboration between the manufacturer and J Mascis, the guitarist from Dinosaur Jr. There are two separate volume controls for the fuzz, and you can switch between them. In true J Mascis style, there's also a treble boost that you can tap for a little extra power.",
+    "color": "purple",
+    "brand": "wrencuff",
+    "type_array": ["fuzz", "boost"]
+  },
+  {
+    "id": 10009,
+    "name": "Ghost Writer",
+    "image": "/images/pedal-ghostwriter.jpg",
+    "description": "The Ghost Writer is a simple transformer that allows you to use a guitar as a MIDI controller. This allows you to plug it into a synthesizer or other MIDI device. Comes with a special cable just for this purpose.",
+    "color": "black",
+    "brand": "recovery",
+    "type_array": ["midi", "transformer"]
+  },
+  {
+    "id": 10010,
+    "name": "Iridium",
+    "image": "/images/pedal-iridium.jpg",
+    "description": "Iridium is an amp-in-a-box pedal that lets you dial in a custom amplifier and cabinet profile. It has a headphone jack, so you can use it to play without an actual amplifier.",
+    "color": "black",
+    "brand": "strymon",
+    "type_array": ["ampsim"]
+  },
+  {
+    "id": 10011,
+    "name": "Melon Cube",
+    "image": "/images/pedal-meloncube.jpg",
+    "description": "This fuzz has a lot of options for shaping its sound. More friendly sounding than some of the darker muff-style fuzzes out there.",
+    "color": "pink",
+    "brand": "fruitfx",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10012,
+    "name": "Pulp 'N' Peel",
+    "image": "/images/pedal-pulpnpeel.jpg",
+    "description": "This compressor will squeeze fresh orange juice out of your guitar. There's also a hidden rat-type distortion circuit that can be activated using bonus controls. This pedal has a huge number of features for its size.",
+    "color": "orange",
+    "brand": "jhs",
+    "type_array": ["compressor", "distortion"]
+  },
+  {
+    "id": 10013,
+    "name": "Spring King",
+    "image": "/images/pedal-springking.jpg",
+    "description": "Back in the 60s, surf guitar players would kick their reverb tanks to make the springs inside make a really cool crashing sound. Most modern reverb pedals don't have real springs in them, so it's harder to make that sound. Enter the Spring King: a simple spring reverb that has real springs, and a special kick plate that you can tap with your foot to recreate the sound.",
+    "color": "yellow",
+    "brand": "danelectro",
+    "type_array": ["novelty", "reverb"]
+  }
+]

@@ -4,7 +4,8 @@ import Image from "next/image";
 import colors from '@/public/data/colors.json';
 import Color from '../components/colors';
 import types from '@/public/data/types.json';
-import Tag from '../components/tags';
+import Tag from '../components/types';
+import ChipLink from '../components/chiplink';
 import brands from '@/public/data/brands.json';
 
 export default async function Page( {params}:any ) {
@@ -22,8 +23,14 @@ export default async function Page( {params}:any ) {
 
   if (result.length > 0) {
     const item = result[0];
-    const type_array = item.type;
-    const full_name = item.brand + item.name;
+    const type_array = item.type_array;
+    let brandName;
+    brands.forEach((brandi) => {
+      if (item.brand == brandi.value) {
+        brandName = brandi.name;
+      }
+    })
+    const full_name = brandName + " " + item.name;
     
     return (
       <div>
@@ -52,17 +59,32 @@ export default async function Page( {params}:any ) {
             })}
           </div>
           <div className="flex gap-3 flex-wrap mt-3">
-            {/* {tags.map((cat) => {
-              if(tag_array.includes(cat.value)) {
+            {brands.map((brandchip) => {
+              if(item.brand == brandchip.value) {
                 return (
-                  <Tag
-                    key={cat.value}
-                    tagParam={cat.value}
+                  <ChipLink
+                    key={brandchip.value}
+                    chipParam={brandchip.value}
+                    groupParam = {"brand"}
                     selected={false}
                   />
                 )
               }
-            })} */}
+            })}
+          </div>
+          <div className="flex gap-3 flex-wrap mt-3">
+            {types.map((cat) => {
+              if(type_array.includes(cat.value)) {
+                return (
+                  <ChipLink
+                    key={cat.value}
+                    chipParam={cat.value}
+                    groupParam = {"type"}
+                    selected={false}
+                  />
+                )
+              }
+            })}
           </div>
         </div>
       </div>

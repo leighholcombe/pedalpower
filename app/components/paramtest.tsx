@@ -1,10 +1,12 @@
-import tags from '@/public/data/tags.json';
+import types from '@/public/data/types.json';
 import colors from '@/public/data/colors.json';
+import brands from '@/public/data/brands.json';
 
 export default async function ParamTest(props: PageProps<any>) {
   const searchParams = await props.searchParams;
   const color = searchParams.color;
-  const cat = searchParams.cat;
+  const type = searchParams.type;
+  const brand = searchParams.brand;
 
   let message;
   if (color !== null && color !== undefined) {
@@ -13,10 +15,16 @@ export default async function ParamTest(props: PageProps<any>) {
         message = "Filter is set to color " + swatch.name;
       }
     });
-  } else if (cat !== null && cat !== undefined) {
-    tags.forEach((tag) => {
-      if(tag.value == cat) {
-        message = "Filter is set to category " + tag.name;
+  } else if (type !== null && type !== undefined) {
+    types.forEach((tag) => {
+      if(tag.value == type) {
+        message = "Filter is set to type " + tag.name;
+      }
+    });
+  } else if (brand !== null && brand !== undefined) {
+    brands.forEach((brandi) => {
+      if(brandi.value == brand) {
+        message = "Filter is set to brand " + brandi.name;
       }
     });
   } else {

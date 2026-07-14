@@ -18,13 +18,21 @@ export function generateCountArray(array:any) {
 
 export function doTheCounting(counter: any, countable: any, countField: string) {
   countable.forEach((item: any) => {
-    item[countField].forEach((member: any) => {
+    if(Array.isArray(item[countField])) {
+      item[countField].forEach((member: any) => {
+        counter.forEach((element: any) => {
+          if(element.value == member) {
+            element.count++;
+          }
+        });
+      });
+    } else {
       counter.forEach((element: any) => {
-        if(element.value == member) {
+        if(element.value == item[countField]) {
           element.count++;
         }
       });
-    });
+    }
   });
   return counter;
 }

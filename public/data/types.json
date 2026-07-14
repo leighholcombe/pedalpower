@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Overdrive",
+    "value": "overdrive"
+  },
+  {
+    "name": "Distortion",
+    "value": "distortion"
+  },
+  {
+    "name": "Bass",
+    "value": "bass"
+  },
+  {
+    "name": "MIDI",
+    "value": "midi"
+  },
+  {
+    "name": "Compressor",
+    "value": "compressor"
+  },
+  {
+    "name": "Chorus",
+    "value": "chorus"
+  },
+  {
+    "name": "Fuzz",
+    "value": "fuzz"
+  },
+  {
+    "name": "Phaser",
+    "value": "phaser"
+  },
+  {
+    "name": "Amp Simulator",
+    "value": "ampsim"
+  },
+  {
+    "name": "Delay",
+    "value": "delay"
+  },
+  {
+    "name": "Reverb",
+    "value": "reverb"
+  },
+  {
+    "name": "Preamp",
+    "value": "preamp"
+  },
+  {
+    "name": "Equalizer",
+    "value": "equalizer"
+  },
+  {
+    "name": "Tremolo",
+    "value": "tremolo"
+  },
+  {
+    "name": "Tuner",
+    "value": "tuner"
+  },
+  {
+    "name": "Glitch",
+    "value": "glitch"
+  },
+  {
+    "name": "Novelty",
+    "value": "novelty"
+  },
+  {
+    "name": "Boost",
+    "value": "boost"
+  },
+  {
+    "name": "Utility",
+    "value": "utility"
+  },
+  {
+    "name": "Octave",
+    "value": "octave"
+  },
+  {
+    "name": "Flanger",
+    "value": "flanger"
+  },
+  {
+    "name": "Acoustic",
+    "value": "acoustic"
+  },
+  {
+    "name": "Transformer",
+    "value": "transformer"
+  },
+  {
+    "name": "Wah",
+    "value": "wah"
+  },
+  {
+    "name": "Volume",
+    "value": "volume"
+  }
+]

@@ -13,7 +13,7 @@ export interface ParamProps {
 }
 
 export interface BrandProps {
-  tagParam: string;
+  brandParam: string;
   selected: boolean;
 }
 
@@ -23,7 +23,13 @@ export interface ColorProps {
 }
 
 export interface TypeProps {
-  colorParam: string;
+  typeParam: string;
+  selected: boolean;
+}
+
+export interface ChipProps {
+  chipParam: string;
+  groupParam: string;
   selected: boolean;
 }
 
@@ -34,5 +40,5 @@ export interface Pedal {
   description: string;
   color: string;
   brand: string;
-  type: Array<string>;
+  type_array: Array<string>;
 }

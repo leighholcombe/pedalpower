@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Boss",
+    "value": "boss"
+  },
+  {
+    "name": "Earthquaker Devices",
+    "value": "earthquaker"
+  },
+  {
+    "name": "JHS",
+    "value": "jhs"
+  },
+  {
+    "name": "MXR",
+    "value": "mxr"
+  },
+  {
+    "name": "Catalinbread",
+    "value": "catalinbread"
+  },
+  {
+    "name": "TC Electronic",
+    "value": "tcelectronic"
+  },
+  {
+    "name": "Copilot FX",
+    "value": "copilotfx"
+  },
+  {
+    "name": "Old Blood Noise Endeavors",
+    "value": "oldblood"
+  },
+  {
+    "name": "Electro-Harmonix",
+    "value": "ehx"
+  },
+  {
+    "name": "BBE",
+    "value": "bbe"
+  },
+  {
+    "name": "Strymon",
+    "value": "strymon"
+  },
+  {
+    "name": "Fender",
+    "value": "fender"
+  },
+  {
+    "name": "Kliq",
+    "value": "kliq"
+  },
+  {
+    "name": "Solid Gold FX",
+    "value": "solidgold"
+  },
+  {
+    "name": "Walrus Audio",
+    "value": "walrus"
+  },
+  {
+    "name": "Mandala",
+    "value": "mandala"
+  },
+  {
+    "name": "Fuzzlord",
+    "value": "fuzzlord"
+  },
+  {
+    "name": "Keeley",
+    "value": "keeley"
+  },
+  {
+    "name": "Ernie Ball",
+    "value": "ernieball"
+  },
+  {
+    "name": "Surfy Industries",
+    "value": "surfy"
+  },
+  {
+    "name": "Recovery",
+    "value": "recovery"
+  },
+  {
+    "name": "Zvex",
+    "value": "zvex"
+  },
+  {
+    "name": "FruitFX",
+    "value": "fruitfx"
+  },
+  {
+    "name": "Ibanez",
+    "value": "ibanez"
+  },
+  {
+    "name": "DOD",
+    "value": "dod"
+  },
+  {
+    "name": "Solar",
+    "value": "solar"
+  },
+  {
+    "name": "Way Huge",
+    "value": "wayhuge"
+  },
+  {
+    "name": "Dunlop",
+    "value": "dunlop"
+  },
+  {
+    "name": "Wren and Cuff",
+    "value": "wrencuff"
+  },
+  {
+    "name": "Marshall",
+    "value": "marshall"
+  },
+  {
+    "name": "Oneder",
+    "value": "oneder"
+  },
+  {
+    "name": "Cusack Music",
+    "value": "cusack"
+  },
+  {
+    "name": "Danelectro",
+    "value": "danelectro"
+  }
+]
