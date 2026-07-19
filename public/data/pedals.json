@@ -115,5 +115,185 @@
     "color": "yellow",
     "brand": "danelectro",
     "type_array": ["novelty", "reverb"]
+  },
+  {
+    "id": 10014,
+    "name": "Acapulco Gold",
+    "image": "/images/pedal-acapulcogold.jpg",
+    "description": "This powerful distortion, with just one massive level knob, can be dangerous to animals and small children. One of the loudest pedals I've ever used.",
+    "color": "yellow",
+    "brand": "earthquaker",
+    "type_array": ["distortion"]
+  },
+  {
+    "id": 10015,
+    "name": "BD-2 Blues Driver",
+    "image": "/images/pedal-bluesdriver.jpg",
+    "description": "Not sure why they call it a 'Blues' driver, but this overdrive is very versatile and has become quite popular with alternative rock and shoegaze guitarists.",
+    "color": "blue",
+    "brand": "boss",
+    "type_array": ["overdrive"]
+  },
+  {
+    "id": 10016,
+    "name": "Volume Pedal",
+    "image": "/images/pedal-ebvolume.jpg",
+    "description": "This analog pedal is pretty simple. The foot switch rocks back and forth, with full volume at one end, and mute at the other. Essential for fades and swells.",
+    "color": "black",
+    "brand": "ernieball",
+    "type_array": ["volume"]
+  },
+  {
+    "id": 10017,
+    "name": "MF-4",
+    "image": "/images/pedal-fuzzlordmf4.jpg",
+    "description": "Fuzzlord makes just one kind of pedal: fuzz. This one has a really grimey and doomy sound, and it cleans up nicely with a distortion nearby. Artwork is... controversial.",
+    "color": "black",
+    "brand": "fuzzlord",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10018,
+    "name": "Green Screamer",
+    "image": "/images/pedal-greenscreamer.jpg",
+    "description": "Every pedal company has their own version of the Ibanez Tube Screamer circuit, and they often make the pedal green to let you know exactly what to expect. I like this one better than most.",
+    "color": "green",
+    "brand": "bbe",
+    "type_array": ["overdrive"]
+  },
+  {
+    "id": 10019,
+    "name": "HM-2w Heavy Metal",
+    "image": "/images/pedal-heavymetalwaza.jpg",
+    "description": "The original HM-2 was very popular in Nordic countries for some reason, and became the foundation of the Swedish death metal and Norwegian black metal scenes. There's just one way to use this pedal - turn everything up to maximum.",
+    "color": "black",
+    "brand": "boss",
+    "type_array": ["distortion", "waza"]
+  },
+  {
+    "id": 10020,
+    "name": "Hizumitas",
+    "image": "/images/pedal-hizumitas.jpg",
+    "description": "A lot of heavy fuzz for such a small pedal with a cute graphic. Apparently based on a custom circuit from a Japanese doom metal artist. Pairs nicely with Plumes.",
+    "color": "gray",
+    "brand": "earthquaker",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10021,
+    "name": "Katzenkönig",
+    "image": "/images/pedal-katzenkonig.jpg",
+    "description": "The name is German for 'cat king', an appropriate name for a ToneBender-style fuzz crossed with a Rat distortion. I like this one because it is lighter than the usual muff-style fuzzes.",
+    "color": "yellow",
+    "brand": "catalinbread",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10022,
+    "name": "Kompressor",
+    "image": "/images/pedal-kompressor.jpg",
+    "description": "There are a lot of compressors out there, but this one has a lot of knobs. And it's black and looks like metal, which is probably why it has become popular with metal guitarists.",
+    "color": "black",
+    "brand": "keeley",
+    "type_array": ["compressor"]
+  },
+  {
+    "id": 10023,
+    "name": "Lillian",
+    "image": "/images/pedal-lillian.jpg",
+    "description": "Walrus makes a whole line of tone-shaping effects named after women. There's probably a whole story of who Lillian is. Regardless, this is a very robust phaser.",
+    "color": "blue",
+    "brand": "walrus",
+    "type_array": ["phaser"]
+  },
+  {
+    "id": 10024,
+    "name": "MT-2w Metal Zone",
+    "image": "/images/pedal-metalzonewaza.jpg",
+    "description": "The Metal Zone gets a lot of hate for having a thin and shrill sound, but there's a lot more going on here. Name another pedal with four tone controls! If you need to make a Telecaster and a keyboard amp sound like metal, this will do it. And even if you have all your distortion needs managed, this pedal can still be used as an instant feedback circuit.",
+    "color": "gray",
+    "brand": "boss",
+    "type_array": ["distortion", "waza"]
+  },
+  {
+    "id": 10025,
+    "name": "Muffuletta",
+    "image": "/images/pedal-muffuletta.jpg",
+    "description": "JHS likes to give you a lot of bang for your buck, and this pedal is no exception. If you can't figure out which style of Big Muff you want to buy, they've got you covered. The lower right knob allows you to switch between six different Big Muff sounds, including Pi, Russian, Ram's Head, and more. Named after a delicious deli sandwich that is popular in New Orleans.",
+    "color": "green",
+    "brand": "jhs",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10026,
+    "name": "OS-2 Overdrive Distortion",
+    "image": "/images/pedal-os2overdist.jpg",
+    "description": "This is a great pedal for beginners. It's capable of a lot of different rock sounds, right out of the box, regardless of your amp or guitar. Pairs well with other distortions. One of the oldest pedals in my collection.",
+    "color": "yellow",
+    "brand": "boss",
+    "type_array": ["overdrive", "distortion"]
+  },
+  {
+    "id": 10027,
+    "name": "Plumes",
+    "image": "/images/pedal-plumes.jpg",
+    "description": "Plumes is my absolute favorite overdrive pedal. It's similar to a Tube Screamer topology, but it's capable of so much more. Pairs nicely with Hizumitas. This is a limited edition color called 'water blue'.",
+    "color": "teal",
+    "brand": "earthquaker",
+    "type_array": ["overdrive"]
+  },
+  {
+    "id": 10028,
+    "name": "Sabbra Cadabra",
+    "image": "/images/pedal-sabbracadabra.jpg",
+    "description": "Tony Iommi from Black Sabbath had an instantly recognizable sound, created by his custom Laney amps. If you want that sound, but can't find or afford a vintage amp, this pedal reproduces it like magic.",
+    "color": "yellow",
+    "brand": "catalinbread",
+    "type_array": ["fuzz", "distortion"]
+  },
+  {
+    "id": 10029,
+    "name": "Spark",
+    "image": "/images/pedal-spark.jpg",
+    "description": "This mini pedal does just one thing, and does it well: boosts your volume. Use it after a volume sucking pedal, or as a boost going into another pedal. Either way, you're guaranteed to be louder.",
+    "color": "white",
+    "brand": "tcelectronic",
+    "type_array": ["boost"]
+  },
+  {
+    "id": 10030,
+    "name": "Star Crash",
+    "image": "/images/pedal-starcrash.jpg",
+    "description": "This is a Fuzz Face circuit, but with a little bit more volume and some nifty shaping options. Sounds just like the 70s. ",
+    "color": "green",
+    "brand": "catalinbread",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10031,
+    "name": "SY-1 Synthesizer",
+    "image": "/images/pedal-sy1synth.jpg",
+    "description": "If you want your guitar to go beep-boop, start here. The Boss has eight different sound types, with ten variations of each, which lets you create dozens of sounds. And it has send/return and expression jacks for even more versatility.",
+    "color": "blue",
+    "brand": "boss",
+    "type_array": ["transformer"]
+  },
+  {
+    "id": 10032,
+    "name": "Sentry",
+    "image": "/images/pedal-tcsentry.jpg",
+    "description": "The Sentry locks down your sound with the best noise gate on the market. Most effective when noisy pedals are contained in a four-cable send and return loop. Absolutely essential if you have noisy fuzzes and loud distortions in your chain.",
+    "color": "black",
+    "brand": "tcelectronic",
+    "type_array": ["utility"]
+  },
+  {
+    "id": 10033,
+    "name": "TU-3w",
+    "image": "/images/pedal-tu3tunerwaza.jpg",
+    "description": "Boss has been the leader in pedal tuners for decades. And this one's black! I like it because it's responsive enough to reliably tune basses and downtuned guitars.",
+    "color": "black",
+    "brand": "boss",
+    "type_array": ["utility", "tuner"]
   }
 ]
