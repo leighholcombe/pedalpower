@@ -78,5 +78,10 @@
     "name": "Off-White",
     "value": "offwhite",
     "class": "amber-100"
+  },
+  {
+    "name": "Metallic",
+    "value": "metallic",
+    "class": "slate-400"
   }
 ]

@@ -15,7 +15,7 @@
     "description": "The name comes from the 'weirding module' invented for David Lynch's Dune, and it is that strange. Kind of a fuzz, but also kind of a synthesizer, it's more of a toy than a tone shaper.",
     "color": "black",
     "brand": "wayhuge",
-    "type_array": ["novelty", "fuzz", "synthesizer"]
+    "type_array": ["novelty", "fuzz", "synthesizer", "noise"]
   },
   {
     "id": 10003,
@@ -48,17 +48,17 @@
     "id": 10006,
     "name": "Ditto X2",
     "image": "/images/pedal-dittolooper.jpg",
-    "description": "The Ditto is a full-featured looping pedal. You can slow down or reverse the loop, but my favorite feature is the easy stop.",
+    "description": "The Ditto is a full-featured looping pedal. You can slow down or reverse the loop, but my favorite feature is the easy stop. The stereo output at the end of the chain is also incredibly handy.",
     "color": "gray",
     "brand": "tcelectronic",
-    "type_array": ["looper"]
+    "type_array": ["looper", "stereo"]
   },
   {
     "id": 10007,
     "name": "Fuzz Factory",
     "image": "/images/pedal-fuzzfactory.jpg",
     "description": "Five controls for a fuzz pedal is a lot, and this one is capable of dialing in a ton of custom sounds. When I got it used, some of the original black knobs were damaged, so I replaced all of them with multi-colored knobs. It seemed to fit the pedal.",
-    "color": "gray",
+    "color": "metallic",
     "brand": "zvex",
     "type_array": ["fuzz"]
   },
@@ -87,7 +87,7 @@
     "description": "Iridium is an amp-in-a-box pedal that lets you dial in a custom amplifier and cabinet profile. It has a headphone jack, so you can use it to play without an actual amplifier.",
     "color": "black",
     "brand": "strymon",
-    "type_array": ["ampsim"]
+    "type_array": ["ampsim", "stereo"]
   },
   {
     "id": 10011,
@@ -289,11 +289,83 @@
   },
   {
     "id": 10033,
-    "name": "TU-3w",
+    "name": "TU-3w Tuner",
     "image": "/images/pedal-tu3tunerwaza.jpg",
     "description": "Boss has been the leader in pedal tuners for decades. And this one's black! I like it because it's responsive enough to reliably tune basses and downtuned guitars.",
     "color": "black",
     "brand": "boss",
     "type_array": ["utility", "tuner"]
+  },
+  {
+    "id": 10034,
+    "name": "Blood Moon",
+    "image": "/images/pedal-bloodmoon.jpg",
+    "description": "A solid phaser option from TC Electronics' lower tier line.",
+    "color": "red",
+    "brand": "tcelectronic",
+    "type_array": ["phaser"]
+  },
+  {
+    "id": 10035,
+    "name": "Dark Light",
+    "image": "/images/pedal-darklight.jpg",
+    "description": "OBNE combined their Dark Star lo-fi reverb and their Sunlight dynamic reverb into one crazy pedal that allows you to run them both in parallel or in series. And each side has independent stereo outputs for maximum customization.",
+    "color": "darkblue",
+    "brand": "oldblood",
+    "type_array": ["reverb", "noise", "stereo"]
+  },
+  {
+    "id": 10036,
+    "name": "JVM",
+    "image": "/images/pedal-jvm.jpg",
+    "description": "The JVM is a 100w Marshall all-valve head with an iconic crunch sound that is popular with metal bands. This pedal simulates that distortion sound. It also has a built-in noise gate.",
+    "color": "metallic",
+    "brand": "marshall",
+    "type_array": ["ampsim", "distortion", "utility"]
+  },
+  {
+    "id": 10037,
+    "name": "Notaklön",
+    "image": "/images/pedal-notaklon.jpg",
+    "description": "One of the most unique pedal concepts ever conceived. The Klon is a an extremely rare and highly coveted overdrive pedal that is famously hard to emulate because the original developer covered the electronics in a substance called goop, so no one could reverse engineer it. Those who have played a Klon claim that it is pure magic. So when JHS was able to reverse engineer the sound of the original, they wanted to do something clever with it. The Notaklön is a spoof on an IKEA furniture item, and it comes as a kit that you have to assemble yourself. It even includes a tube of goop that you can apply to the circuit board. To be perfectly honest, I don't think the Klon is all that special, and although this version of it sounds accurate, I'm not a huge fan. But it was all worth it to have a pedal that I assembled myself in my collection. (I did not apply the goop.)",
+    "color": "white",
+    "brand": "jhs",
+    "type_array": ["overdrive"]
+  },
+  {
+    "id": 10038,
+    "name": "Psi",
+    "image": "/images/pedal-psifuzz.jpg",
+    "description": "The Psi has a similar fuzz sound to the Big Muff Pi, but it's not as thick sounding, which is why this was my first fuzz pedal.",
+    "color": "purple",
+    "brand": "keeley",
+    "type_array": ["fuzz"]
+  },
+  {
+    "id": 10039,
+    "name": "TS-9 Tube Screamer",
+    "image": "/images/pedal-tubescreamer.jpg",
+    "description": "Iconic sound and iconic color - every company has a Tube Screamer clone, and they're all the exact same shade of green.",
+    "color": "green",
+    "brand": "ibanez",
+    "type_array": ["overdrive"]
+  },
+  {
+    "id": 10040,
+    "name": "Grunge",
+    "image": "/images/pedal-grunge.jpg",
+    "description": "DOD was a popular effects brand in the 80s, but when they started losing market share to Boss, they kinda lost their minds trying to come up with new ways to market themselves in the 90s. The Grunge comes from this era, although the name is more closely related to the grunge aesthetic than any of the original Seattle sounds of the genre. It is both a fuzz and a distortion, and while it excels at neither, it is capable of making a lot of noise.",
+    "color": "purple",
+    "brand": "dod",
+    "type_array": ["fuzz", "distortion", "noise"]
+  },
+  {
+    "id": 10041,
+    "name": "Chug",
+    "image": "/images/pedal-chug.jpg",
+    "description": "When you let a Swedish death metal player design a distortion pedal for serious riffing, this is the result. The end goal is to have a distortion unit that can turn any combination of amp and guitar into a metal monster. There are so many different controls on this pedal, and you will probably have to have help to find a configuration for your particular setup. But you can't argue with the end result - pure metal madness.",
+    "color": "metallic",
+    "brand": "solar",
+    "type_array": ["distortion", "utility"]
   }
 ]
