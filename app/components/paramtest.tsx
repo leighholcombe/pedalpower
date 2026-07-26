@@ -9,6 +9,7 @@ export default async function ParamTest(props: PageProps<any>) {
   const brand = searchParams.brand;
 
   let message;
+  let description;
   if (color !== null && color !== undefined) {
     colors.forEach((swatch) => {
       if(swatch.value == color) {
@@ -19,6 +20,7 @@ export default async function ParamTest(props: PageProps<any>) {
     types.forEach((tag) => {
       if(tag.value == type) {
         message = "Filter is set to type " + tag.name;
+        description = tag.description;
       }
     });
   } else if (brand !== null && brand !== undefined) {
@@ -31,6 +33,9 @@ export default async function ParamTest(props: PageProps<any>) {
     message = "No filter detected";
   }
   return (
-    <div>{message}</div>
+    <div>
+      {message}
+      <p>{description}</p>
+    </div>
   )
 }

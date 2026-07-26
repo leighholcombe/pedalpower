@@ -1,110 +1,147 @@
 [
   {
     "name": "Overdrive",
-    "value": "overdrive"
+    "value": "overdrive",
+    "description": "Overdrive is what happens when you turn the volume of a tube amp way up - it starts to distort a little bit, and can sound a little warmer."
   },
   {
     "name": "Distortion",
-    "value": "distortion"
+    "value": "distortion",
+    "description": "Distortion starts in the same way as overdrive - turning the amp way up. But distortion allows for levels of break-up that wouldn't be possible through normal audio circuits."
   },
   {
     "name": "Bass",
-    "value": "bass"
+    "value": "bass",
+    "description": "Bass pedals are designed and constructed specifically to modify low frequency sounds from a bass guitar or other low-end instrument."
   },
   {
     "name": "MIDI",
-    "value": "midi"
+    "value": "midi",
+    "description": "MIDI stands for Musical Instrument Digital Interface - a standardized way to connect analog instruments to a computer."
   },
   {
     "name": "Compressor",
-    "value": "compressor"
+    "value": "compressor",
+    "description": "Audio compression involves trimming the high and low frequencies off a signal, leaving only the middle. This can help to equalize the levels of very dynamic playing, and contain the sonic space of an instrument."
   },
   {
     "name": "Chorus",
-    "value": "chorus"
+    "value": "chorus",
+    "description": "Chorus circuits make it sound like there is more than one instrument playing, usually by copying the signal and adding an infinitesimal delay."
   },
   {
     "name": "Fuzz",
-    "value": "fuzz"
+    "value": "fuzz",
+    "description": "Fuzz is kinda like distortion, but the circuits used to increase the breakup are different. You can usually tell the difference between a fuzz and a distortion. There are multiple different ways to make a fuzz sound, which allows for great variety in fuzz circuit design."
   },
   {
     "name": "Phaser",
-    "value": "phaser"
+    "value": "phaser",
+    "description": "Phase shifter is a modulation effect that adds peaks and valleys to the audio signal, resulting in the audio equivalent of motion."
   },
   {
     "name": "Amp Simulator",
-    "value": "ampsim"
+    "value": "ampsim",
+    "description": "Tube and solid-state amplifiers often have their own signature sounds, which can be modeled using digital or analog technologies within a pedal circuit. Many amp-sim pedals come with a headphone jack - no amp required."
   },
   {
     "name": "Delay",
-    "value": "delay"
+    "value": "delay",
+    "description": "Delay is a modulation effect in which your signal is repeated. Some delays sound like an echo, with the signal decaying each time it repeats until it disappears. But others maintain their audio integrity, and can repeat indefinitely if you don't stop them. There are a lot of different delay types out there."
   },
   {
     "name": "Reverb",
-    "value": "reverb"
+    "value": "reverb",
+    "description": "Reverb is the extra sound you hear after your signal bounces off of something. The type of the reverb is dependent on what the signal is travelling through. The most common types are spring (the signal travels down a physical spring), hall (the signal literally bounces off a wall), and plate (signal travels down a sheet of metal)."
   },
   {
     "name": "Preamp",
-    "value": "preamp"
+    "value": "preamp",
+    "description": "Most amplifiers have two amplification stages: pre and post. Different gains and tones are applied at each stage. A preamp pedal simulates the gain and controls of the preamp stage. The outcome is kinda like having amp-like settings at the tap of a foot."
   },
   {
     "name": "Equalizer",
-    "value": "equalizer"
+    "value": "equalizer",
+    "description": "Equalizers shape the signal of the instrument. A single tone knob is a form of single frequency equalizer, but most equalizers divide the signal up by more frequencies, allowing greater control."
   },
   {
     "name": "Tremolo",
-    "value": "tremolo"
+    "value": "tremolo",
+    "description": "Imagine someone turning the volume of your stereo up and down repeatedly - that's tremolo. Depending on the speed and timing, you can get a lot of really cool sounds that way."
   },
   {
     "name": "Tuner",
-    "value": "tuner"
-  },
-  {
-    "name": "Glitch",
-    "value": "glitch"
+    "value": "tuner",
+    "description": "On a guitar, each string vibrates at a different frequency, and certain frequencies correspond to the notes of the musical system. A tuner allows you to correct the frequency if the tension in the guitar strings causes it to decay. Most tuners also mute when engaged, which can be useful during performance."
   },
   {
     "name": "Novelty",
-    "value": "novelty"
+    "value": "novelty",
+    "description": "Any effect can be considered novel if you're abstracting hard enough. But most effects fall into a few universally recognized categories, and I'm using this one to catch all the effects that don't."
   },
   {
     "name": "Boost",
-    "value": "boost"
+    "value": "boost",
+    "description": "Boost is an increase in signal strength, aka volume. Unlike an overdrive, a boost normally doesn't add any color or warmth to the signal, it just makes it louder."
   },
   {
     "name": "Utility",
-    "value": "utility"
+    "value": "utility",
+    "description": "Some pedals are more focused on signal management than the sound of the instrument. These are the utilities."
   },
   {
     "name": "Octave",
-    "value": "octave"
+    "value": "octave",
+    "description": "In western music, we have 12 main tones, divided up into 8 notes. An octave is the interval at which the frequency of a note repeats. An octave up has a higher pitch, and an octave down has a lower pitch. Octave pedals produce one or more of these additional pitches."
   },
   {
     "name": "Flanger",
-    "value": "flanger"
+    "value": "flanger",
+    "description": "Flanging originally involved touching the uptake reel of a tape recording machine, which created a weird lagging sound. Nowadays, they make that sound with circuits. It has kinda gone out of fashion, but you still hear it from time to time."
   },
   {
     "name": "Acoustic",
-    "value": "acoustic"
+    "value": "acoustic",
+    "description": "When you plug an acoustic instrument into an amplifier, it doesn't just sound like an electric instrument. Therefore, you sometimes want some effects that are designed around the unique sounds of an acoustic instrument."
   },
   {
     "name": "Transformer",
-    "value": "transformer"
+    "value": "transformer",
+    "description": "For my purposes, a transformer is something that makes the guitar sound like something other than a guitar."
   },
   {
     "name": "Wah",
-    "value": "wah"
+    "value": "wah",
+    "description": "Wah, or wah-wah, is an effect that alters the timbre of the pitch, which can create sounds with a similar expressive range to the human voice."
   },
   {
     "name": "Volume",
-    "value": "volume"
+    "value": "volume",
+    "description": "Volume pedals make loudness go up or down."
   },
   {
     "name": "Noise",
-    "value": "noise"
+    "value": "noise",
+    "description": "For my purposes, noise pedals are capable of altering the sound of a guitar so extremely that it can become unrecognizable."
   },
   {
     "name": "Stereo",
-    "value": "stereo"
+    "value": "stereo",
+    "description": "Stereo pedals have two inputs and/or outputs, which allow the signal to be split in two and rerouted to different amps or effects."
+  },
+  {
+    "name": "Mini",
+    "value": "mini",
+    "description": "Pedals with smaller form factors that take up a lot less room. Jury is still out as to whether the size affects the sound."
+  },
+  {
+    "name": "Collaboration",
+    "value": "collab",
+    "description": "Collaboration pedals are what happens when a brand works with a musician or other manufacturer to craft a signature sound."
+  },
+  {
+    "name": "Waza Craft",
+    "value": "waza",
+    "description": "Waza is Japanese for 'technique' or 'artistry'. Waza Craft is a premium line of Boss pedals, hand made in Japan and using only analog circuits."
   }
 ]

@@ -6,7 +6,7 @@
     "description": "The Meowdulator is a very silly pedal that makes cat noises. It only carries a single octave worth of meows, so it is very limited for use with chords. All the knobs are labeled 'Meow'. There are a few different cat voices to choose from. This pedal is a special co-promotion with B's Music, so it has the B's Music logo (on the microphone).",
     "color": "green",
     "brand": "cusack",
-    "type_array": ["novelty", "transformer"]
+    "type_array": ["novelty", "transformer", "collab"]
   },
   {
     "id": 10002,
@@ -69,7 +69,7 @@
     "description": "This fuzz is a collaboration between the manufacturer and J Mascis, the guitarist from Dinosaur Jr. There are two separate volume controls for the fuzz, and you can switch between them. In true J Mascis style, there's also a treble boost that you can tap for a little extra power.",
     "color": "purple",
     "brand": "wrencuff",
-    "type_array": ["fuzz", "boost"]
+    "type_array": ["fuzz", "boost", "collab"]
   },
   {
     "id": 10009,
@@ -177,7 +177,7 @@
     "description": "A lot of heavy fuzz for such a small pedal with a cute graphic. Apparently based on a custom circuit from a Japanese doom metal artist. Pairs nicely with Plumes.",
     "color": "gray",
     "brand": "earthquaker",
-    "type_array": ["fuzz"]
+    "type_array": ["fuzz", "collab"]
   },
   {
     "id": 10021,
@@ -258,7 +258,7 @@
     "description": "This mini pedal does just one thing, and does it well: boosts your volume. Use it after a volume sucking pedal, or as a boost going into another pedal. Either way, you're guaranteed to be louder.",
     "color": "white",
     "brand": "tcelectronic",
-    "type_array": ["boost"]
+    "type_array": ["boost", "mini"]
   },
   {
     "id": 10030,
@@ -294,7 +294,7 @@
     "description": "Boss has been the leader in pedal tuners for decades. And this one's black! I like it because it's responsive enough to reliably tune basses and downtuned guitars.",
     "color": "black",
     "brand": "boss",
-    "type_array": ["utility", "tuner"]
+    "type_array": ["utility", "tuner", "waza"]
   },
   {
     "id": 10034,
@@ -367,5 +367,131 @@
     "color": "metallic",
     "brand": "solar",
     "type_array": ["distortion", "utility"]
+  },
+  {
+    "id": 10042,
+    "name": "Black Fountain",
+    "image": "/images/pedal-blackfountain.jpg",
+    "description": "Black Fountain is a stereo oil-can delay which has different timers for each channel. Lots of configuration options, it can go from simple delay to something approaching noise.",
+    "color": "brown",
+    "brand": "oldblood",
+    "type_array": ["delay", "stereo"]
+  },
+  {
+    "id": 10043,
+    "name": "DD-8 Digital Delay",
+    "image": "/images/pedal-delaydd8.jpg",
+    "description": "The Swiss Army knife of digital delays. It has multiple different modes, to emulate multiple different delay sounds.",
+    "color": "white",
+    "brand": "boss",
+    "type_array": ["delay", "stereo"]
+  },
+  {
+    "id": 10044,
+    "name": "Dookie",
+    "image": "/images/pedal-dookie.jpg",
+    "description": "Billie Joe Armstrong used a couple modified Marshall amps to record the guitar sounds on Green Day's album 'Dookie'. The two amp heads were wired together, and could be blended between overdrive and distortion. This pedal emulates that sound, and the blend knob works the same way. There's also a finger-switch that scoops the mids.",
+    "color": "metallic",
+    "brand": "mxr",
+    "type_array": ["distortion", "ampsim"]
+  },
+  {
+    "id": 10045,
+    "name": "Dual Wreck",
+    "image": "/images/pedal-dualwreck.jpg",
+    "description": "One of the most famous metal sounds of the 90s came from the Mesa Boogie Dual Rectifier amp. This pedal is an affordable way to get that sound.",
+    "color": "black",
+    "brand": "tcelectronic",
+    "type_array": ["ampsim", "distortion", "stereo"]
+  },
+  {
+    "id": 10046,
+    "name": "EM-III",
+    "image": "/images/pedal-em3.jpg",
+    "description": "This echo pedal simulates a magnetic tape delay effect, with controls for flutter and color. If you hold the tap tempo switch, it can really warp the delay sound.",
+    "color": "blue",
+    "brand": "solidgold",
+    "type_array": ["delay", "octave"]
+  },
+  {
+    "id": 10047,
+    "name": "Flight Delay",
+    "image": "/images/pedal-flightdelay.jpg",
+    "description": "Is it digital? Is it analog? Is it a reverse delay? Yes. There's so many switches and knobs on this thing, you'll go crazy. Another example of a JHS pedal for the perpetually undecided.",
+    "color": "blue",
+    "brand": "jhs",
+    "type_array": ["delay"]
+  },
+  {
+    "id": 10048,
+    "name": "Less Than Jake",
+    "image": "/images/pedal-lessthanjake.jpg",
+    "description": "Less Than Jake is a ska-punk band, and their songs often switch between a boosted clean sound and a thick distortion. Naturally, this pedal does the same. The ska side has just one knob, for boost level. And the punk side is a fully configurable distortion.",
+    "color": "green",
+    "brand": "oneder",
+    "type_array": ["distortion", "boost", "collab"]
+  },
+  {
+    "id": 10049,
+    "name": "Lore",
+    "image": "/images/pedal-lore.jpg",
+    "description": "Lore is a dedicated reverse reverb unit. Reverse reverb has a digital buffer, so the reverb sounds like it happens before the notes you play. The more you crank it, the more confusing it sounds, but it's an essential shoegaze effect.",
+    "color": "green",
+    "brand": "walrus",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10050,
+    "name": "Mandala",
+    "image": "/images/pedal-mandala.jpg",
+    "description": "Mandala has eight different glitch effects with various timing mechanisms, to make it sound like you're losing control of your electronics. Can sound like anything from a Matrix-style digital clipping to a bad cable.",
+    "color": "yellow",
+    "brand": "bananana",
+    "type_array": ["novelty", "noise", "mini"]
+  },
+  {
+    "id": 10051,
+    "name": "MT-2 Metal Zone",
+    "image": "/images/pedal-metalzonemt2.jpg",
+    "description": "The Metal Zone gets a lot of hate for having a thin and shrill sound, but there's a lot more going on here. Name another pedal with four tone controls! If you need to make a Telecaster and a keyboard amp sound like metal, this will do it. And even if you have all your distortion needs managed, this pedal can still be used as an instant feedback circuit. This one is pretty old, and has seen much better days.",
+    "color": "gray",
+    "brand": "boss",
+    "type_array": ["distortion"]
+  },
+  {
+    "id": 10052,
+    "name": "Morning Glory",
+    "image": "/images/pedal-morninglory.jpg",
+    "description": "A lot of overdrives feel pretty similar, but this one has a unique feature. The blend knob allows you to mix your clean signal with the overdriven one, creating a subtle array of tones.",
+    "color": "metallic",
+    "brand": "jhs",
+    "type_array": ["overdrive"]
+  },
+  {
+    "id": 10053,
+    "name": "RV-6 Reverb",
+    "image": "/images/pedal-reverbrv6.jpg",
+    "description": "The Swiss Army knife of digital reverbs. It has multiple different modes, to emulate multiple different reverb sounds.",
+    "color": "black",
+    "brand": "boss",
+    "type_array": ["reverb", "stereo"]
+  },
+  {
+    "id": 10054,
+    "name": "Screen Violence",
+    "image": "/images/pedal-screenviolence.jpg",
+    "description": "A collaboration with the synth-pop group Chvrches. The 'violence' channel is a simple overdrive circuit. And the screen channel has multiple modes of modulation effects.",
+    "color": "gray",
+    "brand": "oldblood",
+    "type_array": ["overdrive", "reverb", "collab", "stereo"]
+  },
+  {
+    "id": 10055,
+    "name": "Shermy",
+    "image": "/images/pedal-shermy.jpg",
+    "description": "Collaboration with Miss Shermette of The Surfrajettes. It's Solid Gold's Surf Rider spring reverb, but in a more compact form factor, and with a more retro color.",
+    "color": "blue",
+    "brand": "solidgold",
+    "type_array": ["reverb", "collab"]
   }
 ]
