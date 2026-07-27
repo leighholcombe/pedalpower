@@ -493,5 +493,149 @@
     "color": "blue",
     "brand": "solidgold",
     "type_array": ["reverb", "collab"]
+  },
+  {
+    "id": 10056,
+    "name": "AC-3 Acoustic Simulator",
+    "image": "/images/pedal-ac3acoustic.jpg",
+    "description": "Sometimes, you really need your electric guitar to sound like an acoustic guitar. I don't think this pedal does a very good job of that, but it does add some interesting color to your electric guitar sound. Just get an acoustic guitar if you need one. If you go to Mexico, they're cheaper than this pedal.",
+    "color": "yellow",
+    "brand": "boss",
+    "type_array": ["transformer"]
+  },
+  {
+    "id": 10057,
+    "name": "Afterneath",
+    "image": "/images/pedal-afterneath.jpg",
+    "description": "The graphic of a wizard in a cave casting spells pretty much says it all. It starts off as a room reverb, but then you have massive control over what happens to the reflections. Popular with dream pop and shoegaze bands.",
+    "color": "black",
+    "brand": "earthquaker",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10058,
+    "name": "Alpha Haunt",
+    "image": "/images/pedal-alphahaunt.jpg",
+    "description": "And out come the wolves! Sure it's a fuzz, but OBNE never stops there. You also get a three-band equalizer, and plenty of tweaking knobs and switches.",
+    "color": "white",
+    "brand": "oldblood",
+    "type_array": ["fuzz", "equalizer"]
+  },
+  {
+    "id": 10059,
+    "name": "Angry Charlie",
+    "image": "/images/pedal-angrycharlie.jpg",
+    "description": "Angry Charlie is a simulator of the JCM-800 Marshall amp, and has all the overdrive and distortion capabilities of that classic head.",
+    "color": "red",
+    "brand": "jhs",
+    "type_array": ["ampsim", "overdrive", "distortion"]
+  },
+  {
+    "id": 10060,
+    "name": "Arrow Airwaves",
+    "image": "/images/pedal-arrowairwaves.jpg",
+    "description": "This is one of the most unique pedals I own - I've never seen anyone else with this on their board. Maybe for good reason. It generates static. There are three different modes: it can play only static all the time, it can play static while you play, or it can play static when you stop playing. Very limited lo-fi applications, but it is absolutely perfect when you actually want static.",
+    "color": "black",
+    "brand": "copilotfx",
+    "type_array": ["utility", "noise"]
+  },
+  {
+    "id": 10061,
+    "name": "Attack Decay",
+    "image": "/images/pedal-attackdecay.jpg",
+    "description": "This pedal is a type of delay called a tape reverse simulator. It's based on what it sound like if you play a reel-to-reel tape machine in reverse. Basically, it makes your music backwards.",
+    "color": "orange",
+    "brand": "ehx",
+    "type_array": ["delay"]
+  },
+  {
+    "id": 10062,
+    "name": "Bit Commander",
+    "image": "/images/pedal-bitcommander.jpg",
+    "description": "Bit Commander is a bit crusher - it compresses your sound so hard that it becomes pixelated. This is not quite the same as making classic 8-bit video game music, so you can't really use it to make chiptunes. But if you really want to squelch and squeeze your sound, this will do it.",
+    "color": "purple",
+    "brand": "earthquaker",
+    "type_array": ["transformer"]
+  },
+  {
+    "id": 10063,
+    "name": "CH-1 Super Chorus",
+    "image": "/images/pedal-ch1chorus.jpg",
+    "description": "This is the gold standard of chorus pedals - so much so that other manufacturers make their chorus pedals the same color.",
+    "color": "blue",
+    "brand": "boss",
+    "type_array": ["chorus", "stereo"]
+  },
+  {
+    "id": 10064,
+    "name": "DS-1 Distortion",
+    "image": "/images/pedal-ds1dist.jpg",
+    "description": "This basic, beginner-level distortion became famous when it was revealed that Kurt Cobain used it on the Nirvana album 'Bleach'.",
+    "color": "orange",
+    "brand": "boss",
+    "type_array": ["distortion"]
+  },
+  {
+    "id": 10065,
+    "name": "Ledges",
+    "image": "/images/pedal-ledges.jpg",
+    "description": "Ledges does three different types of reverb - hall, room, and plate. I got this because I didn't actually own any other plate reverb pedals.",
+    "color": "green",
+    "brand": "earthquaker",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10066,
+    "name": "Mimiq",
+    "image": "/images/pedal-mimiq.jpg",
+    "description": "Mimiq is a very specialized application of a chorus circuit. It emulates the multi-tracked guitar sounds you sometimes hear on albums, when the same guitar tracks are layered on top of each other to fatten up the sound. It's not really useful for live situations, but if you want to get as close to a recorded sound as possible, this can help.",
+    "color": "offwhite",
+    "brand": "tcelectronic",
+    "type_array": ["chorus", "stereo"]
+  },
+  {
+    "id": 10067,
+    "name": "Six Band EQ",
+    "image": "/images/pedal-mxrsixband.jpg",
+    "description": "As with most equalizers, vertical center is flat, up is boosted, and down is diminished. The classic V-shape shown here is called 'scooped mids' - the midrange frequencies are turned way down.",
+    "color": "metallic",
+    "brand": "mxr",
+    "type_array": ["equalizer"]
+  },
+  {
+    "id": 10068,
+    "name": "OC-5 Octave",
+    "image": "/images/pedal-oc5octave.jpg",
+    "description": "This pedal can create three octaves - one up, two up, and one down. There are enough controls to play all three at once if you want. This pedal has a switch on the back that lets you switch between the bass or guitar.",
+    "color": "brown",
+    "brand": "boss",
+    "type_array": ["octave", "bass"]
+  },
+  {
+    "id": 10069,
+    "name": "FX40 Soft Focus",
+    "image": "/images/pedal-softfocus.jpg",
+    "description": "This pedal is based on the circuit of a particular rack-mount multi-effects unit that created a special reverb sound that was the center of Slowdive's shoegaze sound on their album 'Souvlaki'. The graphic evokes the LCD display of the original unit.",
+    "color": "black",
+    "brand": "catalinbread",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10070,
+    "name": "Soul Vibe",
+    "image": "/images/pedal-soulvibe.jpg",
+    "description": "Not actually a tremolo, but a rotovibe. The rotovibe was a kind of speaker that rotated, which created a uniquely dopplered tremolo effect. As the name of this pedal might suggest, it was a common sound in 60s funk, and Jimi Hendrix was a fan of the sound.",
+    "color": "green",
+    "brand": "bbe",
+    "type_array": ["tremolo"]
+  },
+  {
+    "id": 10071,
+    "name": "Topanga",
+    "image": "/images/pedal-topanga.jpg",
+    "description": "Topanga is one of the best spring reverbs I have ever played. Amazing replica of the Fender spring tank.",
+    "color": "orange",
+    "brand": "catalinbread",
+    "type_array": ["reverb"]
   }
 ]
