@@ -175,7 +175,7 @@
     "name": "Hizumitas",
     "image": "/images/pedal-hizumitas.jpg",
     "description": "A lot of heavy fuzz for such a small pedal with a cute graphic. Apparently based on a custom circuit from a Japanese doom metal artist. Pairs nicely with Plumes.",
-    "color": "gray",
+    "color": "purple",
     "brand": "earthquaker",
     "type_array": ["fuzz", "collab"]
   },
@@ -735,7 +735,7 @@
     "description": "To be perfectly honest, I bought this as a gag, because I didn't own any pink pedals. But it's an amazing light-sounding fuzz.",
     "color": "pink",
     "brand": "fender",
-    "type_array": ["fuzz", "collab"]
+    "type_array": ["fuzz", "collab", "novelty"]
   },
   {
     "id": 10083,

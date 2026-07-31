@@ -49,11 +49,7 @@
     "value": "darkblue",
     "class": "blue-800"
   },
-  {
-    "name": "Tan",
-    "value": "tan",
-    "class": "orange-200"
-  },
+
   {
     "name": "Teal",
     "value": "teal",
@@ -63,16 +59,6 @@
     "name": "Pink",
     "value": "pink",
     "class": "pink-400"
-  },
-  {
-    "name": "Olive",
-    "value": "olive",
-    "class": "lime-800"
-  },
-  {
-    "name": "Heather Gray",
-    "value": "heather",
-    "class": "zinc-800"
   },
   {
     "name": "Off-White",
