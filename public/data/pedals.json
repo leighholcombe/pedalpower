@@ -627,7 +627,7 @@
     "description": "Not actually a tremolo, but a rotovibe. The rotovibe was a kind of speaker that rotated, which created a uniquely dopplered tremolo effect. As the name of this pedal might suggest, it was a common sound in 60s funk, and Jimi Hendrix was a fan of the sound.",
     "color": "green",
     "brand": "bbe",
-    "type_array": ["tremolo"]
+    "type_array": ["modulation"]
   },
   {
     "id": 10071,
@@ -637,5 +637,230 @@
     "color": "orange",
     "brand": "catalinbread",
     "type_array": ["reverb"]
+  },
+  {
+    "id": 10072,
+    "name": "AD-2 Acoustic Preamp",
+    "image": "/images/pedal-ad2preamp.jpg",
+    "description": "Not all amplifiers have preamps specifically designed for acoustic guitars, so here comes Boss to the rescue. Even if it is an acoustic amp, you might want this pedal.",
+    "color": "metallic",
+    "brand": "boss",
+    "type_array": ["acoustic", "preamp"]
+  },
+  {
+    "id": 10073,
+    "name": "Aqueduct",
+    "image": "/images/pedal-aqueduct.jpg",
+    "description": "The Aqueduct is a vibrato pedal, which modulates the pitch of the frequency. This pedal has eight different pitch shifting algorithms to choose from. Like many Earthquaker pedals, this one has a non-latching switch, so you can temporarily engage the effect with a half-press.",
+    "color": "blue",
+    "brand": "earthquaker",
+    "type_array": ["modulation"]
+  },
+  {
+    "id": 10074,
+    "name": "Aural Destiny",
+    "image": "/images/pedal-auraldestiny.jpg",
+    "description": "This pedal is a cornucopia of atmospheric reverbs. The shimmer mode sounds unbelievable when paired with a 12-string guitar.",
+    "color": "red",
+    "brand": "earthquaker",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10075,
+    "name": "Avalanche Run",
+    "image": "/images/pedal-avalancherun.jpg",
+    "description": "With a reverb and a delay in the same stereo pedal, this unit is almost shoegaze-in-a-box. The reverb is similar to the Afterneath, although with fewer knobs.",
+    "color": "blue",
+    "brand": "earthquaker",
+    "type_array": ["reverb", "delay", "stereo"]
+  },
+  {
+    "id": 10076,
+    "name": "Bass Big Muff π",
+    "image": "/images/pedal-bassmuff.jpg",
+    "description": "You can use a normal Big Muff with a bass - they're plenty bassy on their own. But this one is specifically designed for lower frequencies.",
+    "color": "green",
+    "brand": "ehx",
+    "type_array": ["fuzz", "bass"]
+  },
+  {
+    "id": 10077,
+    "name": "Bass Octave Deluxe",
+    "image": "/images/pedal-bassoctave.jpg",
+    "description": "Gotta love the labels on these knobs. If you need octaves on your bass, get them here.",
+    "color": "darkblue",
+    "brand": "mxr",
+    "type_array": ["octave", "bass"]
+  },
+  {
+    "id": 10078,
+    "name": "Blumes",
+    "image": "/images/pedal-blumes.jpg",
+    "description": "Blumes is basically a Plumes overdrive, but designed for the bass. You might not think you need one, until you hear it.",
+    "color": "blue",
+    "brand": "earthquaker",
+    "type_array": ["overdrive", "bass"]
+  },
+  {
+    "id": 10079,
+    "name": "Cloudburst",
+    "image": "/images/pedal-cloudburst.jpg",
+    "description": "This pedal is the master of atmospheric reverb. With the mix and decay turned all the way up, it will ring for days.",
+    "color": "blue",
+    "brand": "strymon",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10080,
+    "name": "Clover",
+    "image": "/images/pedal-clover.jpg",
+    "description": "This pedal only exists to make everything sound bigger and better. Between the clean boost and the tone controls, what's not to love?",
+    "color": "green",
+    "brand": "jhs",
+    "type_array": ["preamp", "boost"]
+  },
+  {
+    "id": 10081,
+    "name": "EQ-200",
+    "image": "/images/pedal-eq200.jpg",
+    "description": "Sometimes, six bands of EQ just isn't enough. Which is why this one has ten. Plus a level set, which effectively makes this a boost pedal.",
+    "color": "black",
+    "brand": "boss",
+    "type_array": ["equalizer", "boost", "stereo"]
+  },
+  {
+    "id": 10082,
+    "name": "Hello Kitty Fuzz",
+    "image": "/images/pedal-hkfuzz.jpg",
+    "description": "To be perfectly honest, I bought this as a gag, because I didn't own any pink pedals. But it's an amazing light-sounding fuzz.",
+    "color": "pink",
+    "brand": "fender",
+    "type_array": ["fuzz", "collab"]
+  },
+  {
+    "id": 10083,
+    "name": "Hummingbird",
+    "image": "/images/pedal-hummingbird.jpg",
+    "description": "This aptly named pedal has the angry energy of a tiny bird rapidly flapping its wings. Like many Earthquaker pedals, this one has a non-latching switch, so you can temporarily engage the effect with a half-press.",
+    "color": "green",
+    "brand": "earthquaker",
+    "type_array": ["tremolo"]
+  },
+  {
+    "id": 10084,
+    "name": "Tinytuner",
+    "image": "/images/pedal-kliqtuner.jpg",
+    "description": "This mini tuner is dirt cheap and works great for electric guitar and bass. However, it struggles with acoustics and my 7-string guitar.",
+    "color": "black",
+    "brand": "kliq",
+    "type_array": ["utility", "tuner", "mini"]
+  },
+  {
+    "id": 10085,
+    "name": "Expression Ramper",
+    "image": "/images/pedal-obneramper.jpg",
+    "description": "Many pedals have what is called an expression input, which allows you to control the application of the effect with an external rocker switch (similar to a wah or volume pedal). A ramper plugs into that same input, and allows you to bring the effect up or down with a simple tap.",
+    "color": "white",
+    "brand": "oldblood",
+    "type_array": ["utility", "mini"]
+  },
+  {
+    "id": 10086,
+    "name": "Acoustic Preverb",
+    "image": "/images/pedal-preverb.jpg",
+    "description": "This pedal combines an acoustic preamp and an acoustic reverb in a shiny copper case.",
+    "color": "metallic",
+    "brand": "fender",
+    "type_array": ["reverb", "acoustic", "preamp"]
+  },
+  {
+    "id": 10087,
+    "name": "Sea Machine",
+    "image": "/images/pedal-seamachine.jpg",
+    "description": "Sea Machine begins as a simple chorus, but it has the ability to quickly go rogue. At a certain point, all you can hear is bubbles under the water. Like many Earthquaker pedals, this one has a non-latching switch, so you can temporarily engage the effect with a half-press.",
+    "color": "teal",
+    "brand": "earthquaker",
+    "type_array": ["chorus", "noise"]
+  },
+  {
+    "id": 10088,
+    "name": "Slapback Echo",
+    "image": "/images/pedal-slapback.jpg",
+    "description": "A sound wave that hits the wall very quickly and bounces back with very little degradation is called a slapback echo. Think of the sound you hear on a racquetball court. This delay only makes that one sound, with minimal controls.",
+    "color": "blue",
+    "brand": "ehx",
+    "type_array": ["delay", "mini"]
+  },
+  {
+    "id": 10089,
+    "name": "Soul Preacher",
+    "image": "/images/pedal-soulpreacher.jpg",
+    "description": "It says 'compressor/sustainer' right there on the pedal, and that's what it does. The compression is simple, but the sustain is massive.",
+    "color": "metallic",
+    "brand": "ehx",
+    "type_array": ["compressor"]
+  },
+  {
+    "id": 10090,
+    "name": "Spatial Delivery",
+    "image": "/images/pedal-spatialdelivery.jpg",
+    "description": "It's hard to describe exactly what this pedal does, but the best thing to say is that it warps the sound. This is pedal you should only use if you need some weirdness.",
+    "color": "orange", 
+    "brand": "earthquaker",
+    "type_array": ["modulation", "noise"]
+  },
+  {
+    "id": 10091,
+    "name": "Surfybear Reverb",
+    "image": "/images/pedal-surfybear.jpg",
+    "description": "This pedal is extremely long because it has real springs inside, which give it outstanding spring reverb sound. There are two channels, so you can switch between levels of reverb mix. I recommend not setting this on the floor in front of your amp, because the vibrations from the speaker will actually rattle the springs and create extra reverb.",
+    "color": "black",
+    "brand": "surfy",
+    "type_array": ["reverb"]
+  },
+  {
+    "id": 10092,
+    "name": "Vortex",
+    "image": "/images/pedal-tcvortex.jpg",
+    "description": "Entry-level flanger. If you only have a few bucks to spend, and you need to play the opening from the Heart song 'Barracuda', start here.",
+    "color": "purple",
+    "brand": "tcelectronic",
+    "type_array": ["flanger", "mini"]
+  },
+  {
+    "id": 10093,
+    "name": "Thunderstorm",
+    "image": "/images/pedal-thunderstorm.jpg",
+    "description": "Thanks to cheap overseas assembly, this pedal actually cost less than my mini Vortex flanger, even though it is all-analog circuitry.",
+    "color": "purple",
+    "brand": "tcelectronic",
+    "type_array": ["flanger"]
+  },
+  {
+    "id": 10094,
+    "name": "TU-3 Tuner",
+    "image": "/images/pedal-tu3tuner.jpg",
+    "description": "No frills tuner, handles all my instruments perfectly.",
+    "color": "white",
+    "brand": "boss",
+    "type_array": ["tuner", "utility"]
+  },
+  {
+    "id": 10095,
+    "name": "Tremolo",
+    "image": "/images/pedal-voodootrem.jpg",
+    "description": "I don't think there's a better, warmer sounding tremolo out there. Voodoo Labs doesn't make many pedals, but the ones they do make are excellent.",
+    "color": "black",
+    "brand": "voodoo",
+    "type_array": ["tremolo"]
+  },
+  {
+    "id": 10096,
+    "name": "Whitecap",
+    "image": "/images/pedal-whitecap.jpg",
+    "description": "Tremolo is a fun effect, but what if you made it unfun? This pedal lets you set two tremolos, with independent rates, at the same time - either in parallel or in series. I haven't found a setting on this pedal that is harmonious.",
+    "color": "darkblue",
+    "brand": "oldblood",
+    "type_array": ["tremolo", "noise"]
   }
 ]

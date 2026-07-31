@@ -143,5 +143,10 @@
     "name": "Waza Craft",
     "value": "waza",
     "description": "Waza is Japanese for 'technique' or 'artistry'. Waza Craft is a premium line of Boss pedals, hand made in Japan and using only analog circuits."
+  },
+  {
+    "name": "Modulation (other)",
+    "value": "modulation",
+    "description": "There are so many ways to adjust the sound of a guitar, these are some of the less common ones."
   }
 ]

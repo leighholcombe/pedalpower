@@ -130,5 +130,9 @@
   {
     "name": "Danelectro",
     "value": "danelectro"
+  },
+  {
+    "name": "Voodoo Labs",
+    "value": "voodoo"
   }
 ]
