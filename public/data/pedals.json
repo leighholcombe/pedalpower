@@ -862,5 +862,23 @@
     "color": "darkblue",
     "brand": "oldblood",
     "type_array": ["tremolo", "noise"]
+  },
+  {
+    "id": 10097,
+    "name": "CS-3 Compression Sustainer",
+    "image": "/images/pedal-cs3compressor.jpg",
+    "description": "Boss is the gold standard for just about every pedal function, and compression is a great example. This pedal is used everywhere, and its knobs have different labels from other compressors, so you kinda have to have the right one if you want to dial in someone else's tone.",
+    "color": "blue",
+    "brand": "boss",
+    "type_array": ["compressor"]
+  },
+  {
+    "id": 10098,
+    "name": "Eras Distortion",
+    "image": "/images/pedal-erasdistortion.jpg",
+    "description": "There are at least five types of distortion. I know that because this pedal has five types of distortion, and each of them is very distinct. I'm no good at telling which 'era' a particular sound belongs to, but I can tell which ones I like, and it varies depending on what kind of guitar I'm using.",
+    "color": "red",
+    "brand": "walrus",
+    "type_array": ["distortion"]
   }
 ]
